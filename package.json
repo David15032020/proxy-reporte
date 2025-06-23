@@ -1,0 +1,13 @@
+{
+  "name": "proxy-google-script-render",
+  "version": "1.0.0",
+  "description": "Proxy para conectar formularios externos a Google Apps Script desde Render.com",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  }
+}
