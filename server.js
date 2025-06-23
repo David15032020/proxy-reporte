@@ -17,7 +17,7 @@ app.use(express.json());
 app.post('/reporte', async (req, res) => {
   try {
     // CAMBIA esta URL por la de tu Apps Script:
-    const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/TU_SCRIPT/exec';
+    const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzLJFCdtjtky_tt8AuxJIonqlL06KsgOrhUIE8QE4Q4D8Yo8f8J-c9Gux4tObLOI59I/exec';
 
     const respuesta = await fetch(APPS_SCRIPT_URL, {
       method: 'POST',
